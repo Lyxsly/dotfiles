@@ -1,0 +1,11 @@
+# OS固有の不要ファイル
+.DS_Store
+Thumbs.db
+
+# 履歴やキャッシュ
+*.log
+.cache/
+
+# 秘密情報
+*.pem
+.env
