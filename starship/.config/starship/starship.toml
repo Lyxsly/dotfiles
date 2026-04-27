@@ -1,5 +1,6 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 format = """
+$os\
 $directory\
 [ ](fg:#88C0D0 bg:#1d2230)\
 $git_branch\
@@ -236,6 +237,12 @@ symbol = " "
 [openstack]
 symbol = " "
 disabled = true
+
+[os]
+disabled = false
+# OSアイコンの見た目を調整（背景色なし、文字色を少し明るいグレーに）
+style = "fg:#a0a9cb bold"
+format = "[$symbol]($style)"
 
 [os.symbols]
 AIX = " "
