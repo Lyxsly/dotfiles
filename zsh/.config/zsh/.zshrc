@@ -34,3 +34,4 @@ export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 
 # --- Starshipの起動 ---
 eval "$(starship init zsh)"
+eval "$(fnm env --use-on-cd --shell zsh)"

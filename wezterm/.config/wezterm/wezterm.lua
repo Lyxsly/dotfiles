@@ -12,15 +12,14 @@ config.font_size = 12.0
 config.use_ime = true
 
 -- 👻 3. 背景の透過（0.0が完全透明、1.0が不透明）
-config.window_background_opacity = 0.85
+config.window_background_opacity = 0.8
 -- config.macos_window_background_blur = 20
 config.text_background_opacity = 1.0
-config.window_decorations = "RESIZE"
 ----------------------------------------------------
 -- Window & Tab Design
 ----------------------------------------------------
 -- タイトルバーを一体型ボタンにする（ボタン消滅対策）
-config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
+config.window_decorations = "NONE"
 
 config.show_tabs_in_tab_bar = true
 -- デザインを確認するために、タブが1つでも表示するように false に変更

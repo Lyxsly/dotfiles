@@ -1,4 +1,4 @@
-#files: 835	version: 5.9
+#files: 840	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -330,6 +330,7 @@ _comps=(
 'fc' '_fc'
 'fc-list' '_xft_fonts'
 'fc-match' '_xft_fonts'
+'fd' '_fd'
 'feh' '_feh'
 'fetchmail' '_fetchmail'
 'ffmpeg' '_ffmpeg'
@@ -364,6 +365,7 @@ _comps=(
 'fmttest' '_mh'
 'fned' '_zed'
 'fnext' '_mh'
+'fnm' '_fnm'
 'fold' '_fold'
 'folder' '_mh'
 'folders' '_mh'
@@ -1228,6 +1230,7 @@ _comps=(
 'systemd-cgtop' '_systemd'
 'systemd-delta' '_systemd-delta'
 'systemd-detect-virt' '_systemd'
+'systemd-hwdb' '_systemd-hwdb'
 'systemd-id128' '_systemd-id128'
 'systemd-inhibit' '_systemd-inhibit'
 'systemd-machine-id-setup' '_systemd'
@@ -1290,6 +1293,7 @@ _comps=(
 'transmission-remote' '_transmission'
 'trap' '_trap'
 'tree' '_tree'
+'tree-sitter' '_tree-sitter'
 'trial' '_twisted'
 'trove' '_openstack'
 'true' '_nothing'
@@ -1353,6 +1357,7 @@ _comps=(
 'userdbctl' '_userdbctl'
 'userdel' '_users'
 'usermod' '_user_admin'
+'uv' '_uv'
 'vacuumdb' '_postgresql'
 'val' '_sccs'
 'valgrind' '_valgrind'
@@ -1691,17 +1696,18 @@ bindkey '^[~' _bash_complete-word
 
 autoload -Uz _bluetoothctl _bootctl _busctl _bwrap _coredumpctl \
             _curl _dolphin _dunst _dunstctl _dunstify \
-            _fastfetch _hostnamectl _hyprctl _hyprpm _insmod \
-            _journalctl _kernel-install _kitty _localectl _loginctl \
-            _lsmod _luarocks _luarocks-admin _machinectl _mkinitcpio \
-            _networkctl _oomctl _p11-kit _pacman _playerctl \
-            _pulseaudio _resolvectl _rg _rmmod _run0 \
-            _sd_bus_address _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes _sd_unit_files \
-            _sensors _sensors-detect _starship _swaync _swaync-client \
-            _systemctl _systemd _systemd-analyze _systemd-delta _systemd-id128 \
-            _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run _systemd-tmpfiles \
-            _timedatectl _tlp _tlp-radio-device _tlp-run-on _tlp-stat \
-            _trust _udevadm _udisks2 _upower _userdbctl \
+            _fastfetch _fd _fnm _hostnamectl _hyprctl \
+            _hyprpm _insmod _journalctl _kernel-install _kitty \
+            _localectl _loginctl _lsmod _luarocks _luarocks-admin \
+            _machinectl _mkinitcpio _networkctl _oomctl _p11-kit \
+            _pacman _playerctl _pulseaudio _resolvectl _rg \
+            _rmmod _run0 _sd_bus_address _sd_hosts_or_user_at_host _sd_machines \
+            _sd_outputmodes _sd_unit_files _sensors _sensors-detect _starship \
+            _swaync _swaync-client _systemctl _systemd _systemd-analyze \
+            _systemd-delta _systemd-hwdb _systemd-id128 _systemd-inhibit _systemd-nspawn \
+            _systemd-path _systemd-run _systemd-tmpfiles _timedatectl _tlp \
+            _tlp-radio-device _tlp-run-on _tlp-stat _tree-sitter _trust \
+            _udevadm _udisks2 _upower _userdbctl _uv \
             _varlinkctl _wezterm _wl-copy _wl-paste _wpctl \
             _yay _cdr _all_labels _all_matches _alternative \
             _approximate _arg_compile _arguments _bash_completions _cache_invalid \

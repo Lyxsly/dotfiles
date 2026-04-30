@@ -1,0 +1,23 @@
+# ~/.editorconfig または プロジェクトのルートに配置
+root = true
+
+# すべてのファイルの基本設定
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# C/C++ は 4スペース
+[*.{c,cpp,h,hpp}]
+indent_style = space
+indent_size = 4
+
+# フロントエンドやMarkdownは 2スペース
+[*.{js,ts,jsx,tsx,md,json}]
+indent_style = space
+indent_size = 2
+
+# Python は 4スペース
+[*.py]
+indent_style = space
+indent_size = 4
